@@ -19,6 +19,8 @@ btnAgregar.addEventListener("click", function (event) {
   event.preventDefault();
   arletaValidacionesTexto.innerHTML = " ";
   alertValidaciones.style.display = "none";
+  txtNumber.style.border = " ";
+  txtNombre.style.border = " ";
 
   if (txtNombre.value.length < 3) {
     arletaValidacionesTexto.innerHTML =
