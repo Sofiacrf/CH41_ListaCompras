@@ -30,7 +30,7 @@ btnAgregar.addEventListener("click", function (event) {
   }
 
   if (!ValidarCantidad()) {
-    arletaValidacionesTexto.innerHTML =
+    arletaValidacionesTexto.innerHTML +=
       "El <strong>Numero</strong> no es correcto";
     alertValidaciones.style.display = "block";
     txtNumber.style.border = "solid red medium";
